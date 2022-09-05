@@ -80,6 +80,10 @@ html {
   .menu__link:hover {
     color: rgb(84, 228, 238);
   }
+
+  .portafolio1:hover, .portafolio2:hover, .portafolio3:hover {
+    filter: blur(5px);
+  }
     /*//////////////////////////////////////////////////*/    
 section {
     /* border: 1px solid white; */
