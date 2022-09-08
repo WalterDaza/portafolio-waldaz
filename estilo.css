@@ -245,6 +245,9 @@ hr {
   gap: 70px;
   margin-top: 40px;
 }
+.portafolio1, .portafolio2, .portafolio3 {
+  box-shadow: 0px 0px 25px -3px #22ececc2;
+}
 .contacto__icons1{ 
   margin-top: 20px;
   position: relative;
@@ -279,6 +282,9 @@ hr {
   height: 100px;
   border-radius: 50%;
   z-index: 0;
+}
+.contacto__relleno1, .contacto__relleno2, .contacto__relleno3, .contacto__relleno4{
+  box-shadow: 0px 0px 25px -3px #22ececc2;
 }
 .parrafo5 {
   position: relative;
