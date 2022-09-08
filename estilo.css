@@ -310,8 +310,8 @@ footer{
   margin: 0 auto;
 }
 /*///////////////////////////////////////////////////////////////////////////////*/
-  /* hasta los 500, 0 - 500 */
-  @media (max-width: 472px) {
+
+  @media (max-width: 768px) {
     .menu {
       position: fixed;
       top: -100%;
@@ -344,6 +344,8 @@ footer{
     }
   
     .menu--open {
+      position: absolute;
+      right: 50px;
       cursor: pointer;
       color: white;
     }
@@ -490,7 +492,7 @@ footer{
       top: 7%;
       left: 7%;
       border:2px solid white;
-      background-color: black;
+      background-color:black;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -535,7 +537,7 @@ footer{
   }
 
   
-  @media (min-width: 472px) {
+  @media (min-width: 768px) {
     .menu--close {
       display: none;
     }
